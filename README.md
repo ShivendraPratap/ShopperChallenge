@@ -7,10 +7,16 @@ This project implements the public-facing site that a prospective Shopper would 
 
 ## Command to run the application ##
 
-1) Run : mvn spring-boot:run
+1) Run : 
+```java
+mvn spring-boot:run
+```
 The application can also be bundled as a war/jar to be a deployed as a tomcat/jetty application.
 
-2) Test: mvn clean test
+2) Test: 
+```java
+mvn clean test
+```
 
 This application using Spring Boot Framework, Spring Data.
 It has been configured to run with h2 as in-memory datastore, but can be easily updated to run
@@ -56,10 +62,10 @@ Sample output Json:
 
 ## To-do ##
 
-1) Add session support
-2) Add security
-3) Better error handling
-4) Add profiles for different envs
+- Add session support
+- Add security
+- Better error handling
+- Add profiles for different envs
 
 
 ## Notes ##
