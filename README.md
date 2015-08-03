@@ -57,3 +57,7 @@ Sample output Json:
 2) Add security
 3) Better error handling
 4) Add profiles for different envs
+
+
+== Notes ==
+Tested with Java7

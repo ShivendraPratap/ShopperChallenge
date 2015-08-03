@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Landing page</title>
 
     <!-- Bootstrap -->
     <link href="./bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 <body>
 <div class="row">
     <div class="col-xs-11 col-sm-11  col-md-11  col-lg-11  col-md-offset-5 col-lg-offset-5 col-sm-offset-5 col-xs-offset-5" >
-        <form method="get" action="/shopper">
+        <form method="post" action="/shopper">
             <input type="submit" class=" button btn btn-warning btn-large" value="Apply Now!"/>
         </form>
     </div>

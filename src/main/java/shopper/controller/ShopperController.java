@@ -58,7 +58,7 @@ public class ShopperController {
      * * Model/View to display form for a new shopper
      * @return
      */
-    @RequestMapping(value = "/shopper", method = RequestMethod.GET)
+    @RequestMapping(value = "/shopper", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     public ModelAndView showForm() {
