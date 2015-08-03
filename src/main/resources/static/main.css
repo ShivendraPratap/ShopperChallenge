@@ -1,0 +1,53 @@
+.ic-nav-primary{
+    height: 56px;
+    background-color: #60ab59;
+    width: 100%;
+    min-width: 976px;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1020;
+
+} 
+
+
+.header-logo {
+    display: inline-block;
+    background: url(http://webneel.com/sites/default/files/images/manual/logo/10-best-shopping-store-logo.gif) 0 0 no-repeat;
+    height: 26px;
+    width: 135px;
+    background-size: contain;
+    margin: 15px 20px;
+}
+
+header {
+    padding: 3%;
+    margin-bottom: 10px;
+}
+
+button.btn, .button{
+    border: 1px solid #CB7729;
+    background-color: #EA8349;
+    background-repeat: repeat-x;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFAA3B), color-stop(100%, #EA8349));
+    background-image: -webkit-linear-gradient(top, #FFAA3B, #EA8349);
+    background-image: -moz-linear-gradient(top, #FFAA3B, #EA8349);
+    background-image: -ms-linear-gradient(top, #FFAA3B, #EA8349);
+    background-image: -o-linear-gradient(top, #FFAA3B, #EA8349);
+    background-image: linear-gradient(top, #FFAA3B, #EA8349);
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFAA3B', EndColorStr='#EA8349', GradientType=0);
+    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFAA3B', EndColorStr='#EA8349', GradientType=0);
+    margin-top: 40px;
+    padding: 10px 25px 10px 25px;
+}
+
+button.btn.btn-large, input[type="submit"].btn.btn-large {
+}
+.btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
+    color: #ffffff;
+    background-color: #f89406;
+}
+
+.applynow {
+    text-align: center;
+}
